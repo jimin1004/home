@@ -1,0 +1,44 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+}
+.discription p {
+    padding: 20px;
+    text-align: left;
+    margin: 0;
+}
+.container_buttons {
+    display: grid;
+    justify-items: center;
+}
+.button {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    opacity: 1;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+  }
+
+
+@media(max-width:600px)
+{
+    #grid {
+        display: block;
+    }
+}
